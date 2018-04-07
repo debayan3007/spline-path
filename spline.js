@@ -24,7 +24,7 @@
 //   return pathReturn
 // }
 
-export default function getSpline(dataTemp, intensity = 1) {
+module.exports = function getSpline(dataTemp, intensity = 1) {
   if (dataTemp.length < 2) {
     return;
   }
